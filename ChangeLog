@@ -1,0 +1,34 @@
+Version 1.000003
+	* Update download link.
+	* Remove link to old Changes.
+	* Update test using old Changes.
+	* Update Sphinx home page URL.
+	* Use https for pygments.org.
+	* Add missing author to README.
+	* Move bugtracker to github.com.
+	* Update copyright years.
+
+Version 1.000002
+	* Fix list items without bullet (thanks to Wouter Depypere)
+
+Version 1.000001
+	* Fix kwalitee issues
+
+Version 1.000
+	* Generate version number in code and POD automatically
+	* Update authors and copyright
+	* Improve style and best practices
+
+Version 0.04
+	* Allow any rst-specific text in "=for pod2rst" (Closes: CPAN RT#114346)
+	* Remove perl highlighting in view_pod (Closes: CPAN RT#124710)
+	* Remove Pod::POM::View::Restructured::Changes
+
+Version 0.03
+	* Apply debian patch to POD (Closes: RT#119200)
+	* Add namespace option to convert links to cross references (Closes: CPAN RT#115777)
+
+Version 0.02
+	* Added callbacks parameter
+	* Fixed bug where the module tried to write to an unopened index file
+	    

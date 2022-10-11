@@ -1,0 +1,36 @@
+---
+abstract: 'View for Pod::POM that outputs reStructuredText'
+author:
+  - 'Alex Muntada <alexm@cpan.org>'
+build_requires:
+  Cwd: '0'
+  File::Spec: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 6.017, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Pod-POM-View-Restructured
+requires:
+  Carp: '0'
+  Data::Dumper: '0'
+  ExtUtils::MakeMaker: '6.48'
+  Getopt::Long: '0'
+  Pod::POM: '0'
+  Pod::POM::View::Text: '0'
+  base: '0'
+  bytes: '0'
+  perl: v5.6.0
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://github.com/cuberat/Pod-POM-View-Restructured/issues
+  repository: https://github.com/cuberat/Pod-POM-View-Restructured
+version: '1.000003'
+x_generated_by_perl: v5.32.0
+x_serialization_backend: 'YAML::Tiny version 1.73'
+x_spdx_expression: 'Artistic-1.0-Perl OR GPL-1.0-or-later'

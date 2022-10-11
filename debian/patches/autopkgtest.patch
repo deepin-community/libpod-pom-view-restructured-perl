@@ -1,0 +1,18 @@
+Description: use installed file during autopkgtests
+Origin: vendor
+Forwarded: not-needed
+Author: gregor herrmann <gregoa@debian.org>
+Last-Update: 2021-01-31
+
+--- a/t/01convert.t
++++ b/t/01convert.t
+@@ -15,7 +15,8 @@
+ my $conv = Pod::POM::View::Restructured->new({namespace => "Pod::POM::View::Restructured"});
+ isa_ok($conv, 'Pod::POM::View::Restructured');
+ 
+-my $rv = $conv->convert_file('lib/Pod/POM/View/Restructured.pm');
++my $dir = $ENV{AUTOPKGTEST_TMP} ? '/usr/share/perl5' : 'lib';
++my $rv = $conv->convert_file("$dir/Pod/POM/View/Restructured.pm");
+ 
+ ok($rv);
+ 

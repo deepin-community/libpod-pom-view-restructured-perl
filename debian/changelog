@@ -1,0 +1,66 @@
+libpod-pom-view-restructured-perl (1.000003-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ gregor herrmann ]
+  * Import upstream version 1.000003.
+  * Update debian/upstream/metadata.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.5.1.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Bump debhelper-compat to 13.
+  * Replace debian/tests/pkg-perl/smoke-files with a patch that uses the
+    installed file for tests when run under autopkgtest.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 31 Jan 2021 23:53:31 +0100
+
+libpod-pom-view-restructured-perl (1.000002-1) unstable; urgency=medium
+
+  * Import upstream version 1.000002
+  * Declare compliance with Debian Policy 4.2.1
+  * Update Alex Muntada e-mail in Uploaders
+
+ -- Alex Muntada <alexm@debian.org>  Sun, 25 Nov 2018 13:43:58 +0100
+
+libpod-pom-view-restructured-perl (1.000001-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 1.000001
+  * Update debian/upstream/metadata.
+  * Update upstream copyright notices.
+  * Declare compliance with Debian Policy 4.1.4.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 14 Apr 2018 19:21:54 +0200
+
+libpod-pom-view-restructured-perl (0.03-1) unstable; urgency=medium
+
+  * Team upload.
+
+  * Import upstream version 0.03
+  * debian/copyright: refresh upstream copyright holders
+  * Remove hilight-spelling.patch (applied upstream)
+  * Add debian/tests/pkg-perl/smoke-files
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 26 Jan 2017 00:35:48 +0000
+
+libpod-pom-view-restructured-perl (0.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #847628)
+
+ -- Alex Muntada <alexm@alexm.org>  Sun, 11 Dec 2016 01:12:49 +0100
